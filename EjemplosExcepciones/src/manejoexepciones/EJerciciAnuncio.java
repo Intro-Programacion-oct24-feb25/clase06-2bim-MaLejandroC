@@ -38,20 +38,17 @@ public class EJerciciAnuncio {
                     div = num1 / num2;
 
                     resultados[i] = div;
-                    
-                    
 
                     System.out.printf("RESULTADO: %d\n", resultados[i]);
-                    
+
                 }
-                     
-                
+
                 bandera = false;
                 //se divide para cero
             } catch (ArithmeticException e) {
                 System.out.printf("(ArithmeticException) Ocurrió una "
                         + "excepción por dividir para 0\n");
-                
+
                 entrada.nextLine();
 
                 //se ingresa una letra
@@ -65,14 +62,12 @@ public class EJerciciAnuncio {
                 entrada.nextLine();
 
             }
-            
+
         }
-        
+
         for (int i = 0; i < resultados.length; i++) {
-                    System.out.printf("RESULTADOS EN CADA POSICION: %d\n", resultados[i]);
-                }
-        
-        
+            System.out.printf("RESULTADOS EN CADA POSICION: %d\n", resultados[i]);
+        }
 
     }
 
