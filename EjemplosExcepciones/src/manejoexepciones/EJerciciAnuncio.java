@@ -44,11 +44,7 @@ public class EJerciciAnuncio {
                     System.out.printf("RESULTADO: %d\n", resultados[i]);
                     
                 }
-                
-                for (int i = 0; i < resultados.length; i++) {
-                    System.out.printf("RESULTADOS EN CADA POSICION: %d\n", resultados[i]);
-                }
-                
+                     
                 
                 bandera = false;
                 //se divide para cero
@@ -71,6 +67,10 @@ public class EJerciciAnuncio {
             }
             
         }
+        
+        for (int i = 0; i < resultados.length; i++) {
+                    System.out.printf("RESULTADOS EN CADA POSICION: %d\n", resultados[i]);
+                }
         
         
 
